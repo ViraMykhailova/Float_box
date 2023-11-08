@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+.box-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+  overflow: hidden;
+}
+.txt64px-white {
+  font-size: 64px;
+  color: white;
+}
+.txt36px-white {
+  font-size: 36px;
+  color: white;
+}
+.mb50px {
+  margin-bottom: 50px;
+}
+.box-style {
+  max-width: 200px;
+  padding: 63px 84px;
+  background-color: #fc8f8f;
+  text-align: center;
+}
+.box:nth-child(1) {
+  float: left;
+}
+.box:nth-child(2) {
+  float: right;
+}
+.box2:nth-child(1) {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+.box2:nth-child(2),
+.box2:nth-child(3),
+.box2:nth-child(4),
+.box2:nth-child(5) {
+  float: left;
+}
+.box-small {
+  max-width: 100px;
+  padding: 31.5px 42px;
+  background-color: #fc8f8f;
+  text-align: center;
+}
+.box2:nth-child(2),
+.box2:nth-child(3),
+.box2:nth-child(4),
+.box2:nth-child(5) {
+  margin-left: 15px;
+}
+.box3:nth-child(1),
+.box3:nth-child(2) {
+  float: left;
+}
+.box3:nth-child(1),
+.box3:nth-child(3) {
+  margin-right: 15px;
+}
